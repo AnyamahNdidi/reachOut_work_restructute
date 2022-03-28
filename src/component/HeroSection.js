@@ -35,7 +35,7 @@ REACHOUT WORD
                 muted
              src = {videoFile}
                 className="absolute  
-                  opacity-10
+                  opacity-edOpa
                 z-10 w-auto min-w-full min-h-full max-w-none"
             />
             

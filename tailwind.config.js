@@ -12,6 +12,9 @@ module.exports = {
         't-com' : '#dccc7b',
          'navColor':'#796139',
       'm-col' : '#f8f7f4',
+
+      'cardColor':'#F8F8F4'
+
       "but-col" : "#B8A058"
       },
       width:{
@@ -28,6 +31,7 @@ module.exports = {
         '112':"auto",
         'dheight':'25em',
         "heroHeight":"600px",
+        "myheroHeight":"500px",
         'autoHeight':"auto",
         'cardHeight':'430px',
         'inside':'250px'
@@ -39,6 +43,11 @@ module.exports = {
       margin: {
         'dtop': '-180px',
       },
+
+      opacity: {
+        'edOpa': '.48',
+      }
+
         screens: {
       'sm': '320px',
       // => @media (min-width: 640px) { ... }
@@ -55,6 +64,7 @@ module.exports = {
       '2xl': '1683px',
       // => @media (min-width: 1536pxs) { ... }
     },
+
     },
   },
   plugins: [],

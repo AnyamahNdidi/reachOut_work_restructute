@@ -5,6 +5,7 @@ import { HeroCard } from './HeroCard'
 import HeroSection from './HeroSection'
 import Home from './Home'
 import MapComp from './MapComp/MapComp'
+import Parralax from './Parralax/Parralax'
 import AboutRap from "./qubator/AboutRap/AboutRap"
 import Mission from "./qubator/Mission/Mission"
 
@@ -28,6 +29,7 @@ const ComponentHold = () => {
     <br/>
           <CardProps/>
           <br/>
+          <Parralax/>
           <br/>
          
           <CountDown/>

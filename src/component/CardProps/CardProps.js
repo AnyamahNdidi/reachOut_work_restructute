@@ -12,20 +12,20 @@ const CardProps = () => {
   const data = [
     {
       title: 'A UNIQUE OPPORTUNITY TO EARN',
-      desc: 'Rhapsody is available in over 4000 languages.join us to reach and penetrate the remaining 2.139 languages yet to be acquired.join us today!',
+      desc: 'While reading Rhasody of Realities on the Rhapsody WebApp',
       img1: pic1,
       bck : 'Opportunity to Earn '
   
     },
     {
       title: 'RHAPSODY OF REALITIES IN EVERY FORMAT',
-      desc: 'Rhapsody is available in over 4000 languages.join us to reach and penetrate the remaining 2.139 languages yet to be acquired.join us today!',
+      desc: 'Over 10 billions copies have been distributed in the past 20 years, with many testimonies recorded by users of the daily devotional in print. join us to make Rhapsody of realities reach a minimum 1 BILLION people in print/pyysical formats!',
       img1: pic2,
       bck : 'Rhapsody of Reality '
   
     },
     {
-      title: 'RHAPSODY OF REALITIES IN EVERY FORMAT',
+      title: 'PENETRATING WITH LANGUAGES',
       desc: 'Rhapsody is available in over 4000 languages.join us to reach and penetrate the remaining 2.139 languages yet to be acquired.join us today!',
       img1: pic3,
       bck : 'Rhapsody of Reality '
@@ -78,13 +78,12 @@ const CardProps = () => {
           
       {
         data.map((props) => (
-                <div className='h-cardHeight w-cardWidth m-3 shadow-xl bg-dwhite'>
+                <div className='h-cardHeight  rounded cursor-pointer w-cardWidth    transition-all duration-500    m-3 rounded-t-xl  bg-dwhite hover:scale-105 hover:shadow-md'>
                     <div className='w-full h-inside bg-m-col'>
-                      <img src={props.img1}  className='w-edwdith h-edheight object-cover'/>
+                      <img src={props.img1}  className='w-edwdith h-edheight object-cover rounded'/>
                     </div>
-                    <div className='font-semibold mt-2 leading-6'>{props.title}</div>
-                    <div className=''>{props.desc}</div>
- 
+                    <div className='font-semibold mt-2 leading-5'>{props.title}</div>
+                    <div className='leading-5 mt-1 text-sm'>{props.desc}</div>
                  </div>
         ))
      }

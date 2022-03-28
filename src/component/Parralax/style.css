@@ -1,0 +1,85 @@
+.boxCon {
+  height: 500px;
+  position: relative;
+}
+
+.content {
+  height: 500px;
+  width: 100%;
+  background-color: #101010;
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+  .content {
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    flex-direction: column;
+  }
+}
+.con1 {
+  height: 100%;
+  color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ch {
+  margin-bottom: 20px;
+}
+.ch > span {
+  font-size: 40px;
+  font-weight: 700;
+}
+.ev {
+  width: 500px;
+}
+
+@media only screen and (max-width: 991px) {
+  .ev {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cardAll {
+    width: 300px;
+    height: auto;
+    top: -130px;
+  }
+}
+
+.con2 {
+  height: 100%;
+
+  width: 40%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.hrg {
+  background-color: #dccc7b;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: #101010;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 350ms;
+  transform: scale(0.9);
+}
+.hrg:hover {
+  background-color: #d0ab6f;
+  transform: scale(1);
+}
