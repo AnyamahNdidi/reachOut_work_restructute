@@ -11,7 +11,8 @@ module.exports = {
         'gid-col' : '#8661ef',
         't-com' : '#dccc7b',
          'navColor':'#796139',
-      'm-col' : '#f8f7f4'
+      'm-col' : '#f8f7f4',
+      'cardColor':'#F8F8F4'
       },
       width:{
         'edwdith':"100%",
@@ -26,6 +27,7 @@ module.exports = {
         '112':"auto",
         'dheight':'25em',
         "heroHeight":"600px",
+        "myheroHeight":"500px",
         'autoHeight':"auto",
         'cardHeight':'430px',
         'inside':'250px'
@@ -36,6 +38,9 @@ module.exports = {
       },
       margin: {
         'dtop': '-180px',
+      },
+      opacity: {
+        'edOpa': '.48',
       }
     },
   },
